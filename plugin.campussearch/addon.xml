@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.campussearch"
+	   version="1.1"
+	   name="CampusSearch"
+	   provider-name="Jase - Sparkline">
+  
+  <requires>
+	<import addon="xbmc.metadata" version="1.0"/>
+	<import addon="xbmc.python" version="1.0"/>
+  </requires>
+  
+  <extension point="xbmc.python.pluginsource" 
+  			 library="default.py"
+			 id="plugin.campussearch.plugin">
+		<provides>video</provides>
+  </extension>
+    
+  <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Zoek op CampusNet</summary>
+        <disclaimer>Standaard disclaimer</disclaimer>
+        <description>Kunt zoeken op CNET, met zoekopties</description>
+  </extension>
+</addon>
